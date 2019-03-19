@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3447623317.index
+2089348824.index
+732300821.index
+807082539.index
+553762405.index
+3812551048.index
+1417142063.index
+389054619.index
+2740133403.index
+1119360813.index

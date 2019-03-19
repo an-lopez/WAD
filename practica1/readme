@@ -1,0 +1,5 @@
+La carpeta src contiene dos carpetas, la carpeta main y test.
+La carpeta main contiene tres carpetas: java, resources y webapp.
+La carpeta java contiene la dirección del paquete, dentro contiene todos los archivos java, los servlets y las clases.
+La carpeta webapp contiene todos los archivos de web estática, como son jsp y html. El archivo index.jsp contiene la página principal, el archivo formulario.jsp contiene el formulario que permite la inserción de datos enviando la información al Ejercicio5 por el método post.
+Dentroo de esta carpeta, también se encuentra un subdirectorio WEB-INF, que contiene el deployment descriptor (web.xml), el cuál contiene el mapeo de la página y otras configuraciones de los servlets.

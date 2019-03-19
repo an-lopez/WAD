@@ -1,0 +1,19 @@
+INDEX VERSION 1.131
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/892511503.index
+/database/src/main/resources
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3781074400.index
+/practica1/src/main/resources
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3440069910.index
+/practice2/src/main/java
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2590322631.index
+/practica2/src/main/java
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1863281164.index
+/test/src/main/resources
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3110867298.index
+/practice2/src/main/resources
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/738794155.index
+/practica1/src/main/java
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2999240292.index
+/practica2/src/main/java
+/home/durazno/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/434416888.index
+/practica2/src/main/java

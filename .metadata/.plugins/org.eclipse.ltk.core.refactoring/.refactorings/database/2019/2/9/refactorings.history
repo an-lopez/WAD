@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SQLConnector.java&apos; to &apos;servlets&apos;&#x0A;- Original project: &apos;database&apos;&#x0A;- Destination element: &apos;servlets&apos;&#x0A;- Original element: &apos;SQLConnector.java&apos;" description="Copy file" element1="src/main/java/database/SQLConnector.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1551161440269" target="/practica1/src/main/java/servlets" units="0" version="1.0"/>
+</session>
