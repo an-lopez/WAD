@@ -13,6 +13,10 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import mapping.User;
+import util.ObjectSessionNames;
 
 /**
  * Servlet Filter implementation class Filter2
@@ -46,17 +50,31 @@ public class Filter2 implements Filter {
 		HttpServletRequest req = 
 				(HttpServletRequest) request;
 		
+		
+		User user = null;
 		String[] uri = 
 				req.getRequestURI().split("([/])");
 		
+		//Carpeta Privada
 		for(String ur: uri) {
 			if(ur.equals("interfaces"))
 					flag = true;
 		}
+		
+		//Recursos Privados
 		for(String priv: privates) {
 			if(uri[uri.length-1].equals(priv)) {
 				flag = true;
 			}
+		}
+		
+		HttpSession session = req.getSession(false);
+		if(session != null) {
+			user = (User) session.getAttribute(ObjectSessionNames.USER);
+		}
+		
+		if(user != null) {
+			flag = false;
 		}
 		
 		if(flag) {

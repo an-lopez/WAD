@@ -41,6 +41,24 @@
 		<servlet-class>servletsPrivados.Ejercicio5</servlet-class>
 	</servlet>
 	<servlet>
+		<servlet-name>Ejercicio3</servlet-name>
+		<display-name>Ejercicio3</display-name>
+		<description></description>
+		<servlet-class>servlets.Ejercicio3</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Ejercicio2</servlet-name>
+		<display-name>Ejercicio2</display-name>
+		<description></description>
+		<servlet-class>servlets.Ejercicio2</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Ejercicio1</servlet-name>
+		<display-name>Ejercicio1</display-name>
+		<description></description>
+		<servlet-class>servlets.Ejercicio1</servlet-class>
+	</servlet>
+	<servlet>
 		<servlet-name>LogOn</servlet-name>
 		<display-name>LogOn</display-name>
 		<description></description>
@@ -57,6 +75,19 @@
 		<servlet-name>Ejercicio5</servlet-name>
 		<url-pattern>/Ejercicio5</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ejercicio1</servlet-name>
+		<url-pattern>/Ejercicio1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ejercicio2</servlet-name>
+		<url-pattern>/Ejercicio2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ejercicio3</servlet-name>
+		<url-pattern>/Ejercicio3</url-pattern>
+	</servlet-mapping>
+	
 	<servlet-mapping>
 		<servlet-name>LogOn</servlet-name>
 		<url-pattern>/LogOn</url-pattern>

@@ -9,6 +9,8 @@
 			object</li>
 		<li><a href="Ejercicio5">Ejercicio 5:</a> Do Get</li>
 		<li><a href="/practica2/interfaces/login.jsp">Login 6:</a> Do Get</li>
+		<li><a href="LogIn">Login Chido:</a> Log</li>
+		<li><a href="LogOn">LogOn 6:</a> Log</li>
 	</ol>
 </body>
 </html>

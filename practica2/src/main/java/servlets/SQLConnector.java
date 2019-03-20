@@ -6,7 +6,7 @@ public class SQLConnector {
 
 	public static Connection conexion() {
 		Connection con = null;
-		String url = "jdbc:postgresql://localhost/homework-6?user=postgres&password=root";
+		String url = "jdbc:postgresql://localhost/homework-6?user=postgres&password=postgres";
 		try {
 			con = DriverManager.getConnection(url);
 			Class.forName("org.postgresql.Driver");
