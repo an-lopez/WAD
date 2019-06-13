@@ -26,7 +26,7 @@ public class Ejercicio5 extends HttpServlet {
 	 */
 	public Ejercicio5() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	/**
@@ -72,7 +72,7 @@ public class Ejercicio5 extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		response.setContentType("text/html");
 		String name = request.getParameter("uname");
 		String lname = request.getParameter("lname");

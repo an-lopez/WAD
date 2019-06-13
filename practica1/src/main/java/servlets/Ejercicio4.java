@@ -20,7 +20,7 @@ public class Ejercicio4 extends HttpServlet {
      */
     public Ejercicio4() {
         super();
-        // TODO Auto-generated constructor stub
+        
     }
 
 	/**

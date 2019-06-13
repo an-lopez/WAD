@@ -29,14 +29,14 @@ public class Filter2 implements Filter {
 	 * Default constructor.
 	 */
 	public Filter2() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	/**
 	 * @see Filter#destroy()
 	 */
 	public void destroy() {
-		// TODO Auto-generated method stub
+		
 	}
 
 	/**
@@ -103,7 +103,7 @@ public class Filter2 implements Filter {
 	}
 	
 	public void init(FilterConfig fConfig) throws ServletException {
-		// TODO Auto-generated method stub
+	
 	}
 
 }

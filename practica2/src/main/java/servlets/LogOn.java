@@ -26,7 +26,7 @@ public class LogOn extends HttpServlet {
 	 */
 	public LogOn() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	/**

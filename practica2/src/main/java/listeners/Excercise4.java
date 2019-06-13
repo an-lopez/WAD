@@ -26,7 +26,7 @@ public class Excercise4 implements ServletContextListener, ServletContextAttribu
      */
 	
     public Excercise4() {
-        // TODO Auto-generated constructor stub
+        
     }
 
 	/**
@@ -90,45 +90,45 @@ public class Excercise4 implements ServletContextListener, ServletContextAttribu
      * @see ServletRequestAttributeListener#attributeReplaced(ServletRequestAttributeEvent)
      */
     public void attributeReplaced(ServletRequestAttributeEvent srae)  { 
-         // TODO Auto-generated method stub
+         
     }
 
 	/**
      * @see HttpSessionAttributeListener#attributeAdded(HttpSessionBindingEvent)
      */
     public void attributeAdded(HttpSessionBindingEvent event)  { 
-         // TODO Auto-generated method stub
+         
     }
 
 	/**
      * @see HttpSessionAttributeListener#attributeRemoved(HttpSessionBindingEvent)
      */
     public void attributeRemoved(HttpSessionBindingEvent event)  { 
-         // TODO Auto-generated method stub
+         
     }
 
 	/**
      * @see ServletContextAttributeListener#attributeReplaced(ServletContextAttributeEvent)
      */
     public void attributeReplaced(ServletContextAttributeEvent event)  { 
-         // TODO Auto-generated method stub
+         
     }
 
 	@Override
 	public void attributeRemoved(ServletRequestAttributeEvent srae) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public void attributeReplaced(HttpSessionBindingEvent event) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	@Override
 	public void attributeRemoved(ServletContextAttributeEvent event) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	

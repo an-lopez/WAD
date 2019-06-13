@@ -21,14 +21,14 @@ public class logon extends HttpServlet {
      */
     public logon() {
         super();
-        // TODO Auto-generated constructor stub
+        
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
@@ -50,7 +50,7 @@ public class logon extends HttpServlet {
 	    	rs.next();
 			out.print("Welcome "+ rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3));
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}  
 	          
